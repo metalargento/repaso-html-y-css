@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaWebJosefo :)</title>
+    <meta name="author" content="Jose Ignacio Aliaga">
+    <meta name="description" content="Esta es mi pagina web">
+    <meta name="keywords" content="tutorial, desarrollo web, josefo web">
+    <!--<meta http-equiv="refresh" content="5; https://www.linkedin.com/in/jos%C3%A9-ignacio-aliaga-7239a7215/">-->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/icon">
+</head>
+
+<body>
+    <!--<h1>Hola manola</h1>
+    <hr>
+    <blockquote>
+
+    
+    </blockquote>
+    <pre>aca va el salto de pagina
+        aca otro
+        aca otro
+    </pre>-->
+
+    <h1>Listas ordenadas y desordenadas</h1>
+    <hr>
+    <ol>
+        <li>Lavarse los dientes</li>
+        <li>Ir a hacer las compras
+            <ul>
+                <li>cafe</li>
+                <li>Azucar</li>
+                <li>Canela</li>
+                <li>Vainilla</li>
+            </ul>
+        </li>
+        <li>Cocinar y Comer
+            <ol type="I">
+                <li>Cocinar</li>
+                <li>Comer</li>
+            </ol>
+        </li>
+        <li>Esturiar el curso de html</li>
+        <li>Dormir</li>
+    </ol>
+    <hr>
+
+    <h1>Incrustacion de videos y audios</h1>
+    <hr>
+
+    <video controls  muted width="500px" poster="/assets/img/">
+        <source src="/assets/video/Renata 1er añito.mp4" type="video/mp4">
+
+    </video>
+
+    <p>has click aqui para descargar<a href="/assets/video/Renata 1er añito.mp4"></a></p>
+
+    <audio src="/assets/audio/deadmau5  - Raise Your Weapon.mp3" controls muted></audio>
+    
+
+    <h1> Tabla de alumnos:</h1>
+
+    <hr>
+
+   <table>
+
+    <colgroup>
+        <col style="background-color: rgb(103, 103, 174);">
+        <col style="background-color: blue;">
+        <col style="background-color: beige;">
+        <col>
+        <col>
+    </colgroup>
+
+    <tr>
+        <th>&nbsp;</th>
+        <th>Pedro</th>
+        <th>Ricardo</th>
+        <th>Ana</th>
+        <th>Lucia</th>
+    
+    </tr>
+ 
+    <tr>
+        <td>Edad</td>
+        <td>22</td>
+        <td>32</td>
+        <td>23</td>
+        <td>44</td>
+    
+    </tr>
+    
+    <tr>
+        <td>Materia</td>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JAVASCRIPT</td>
+        <td>REACT</td>
+    
+    </tr>
+    <tr>
+        <td>Promedio</td>
+        <td>9</td>
+        <td>8</td>
+        <td>10</td>
+        <td>7</td>
+    
+    </tr>
+    <tr>
+        <td>Aprobado</td>
+        <td>si</td>
+        <td>si</td>
+        <td>si</td>
+        <td>si</td>
+    
+    </tr>
+    <tr>
+        <td>Años cursados</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+    
+    </tr>
+
+    </table>
+
+<h1>
+    Forma de agrupar:
+</h1>
+
+<hr>
+
+<div>
+    <h2>Titulo secundario</h2>
+    <p>Este es el contenido del este articulo</p>
+    <img src="/assets/img/IMG_20220101_001250.jpg" alt="Programador" width="300px">
+    <br>
+    <a href="https://www.ahi-ta.com/bienvenido.html">Para mas info</a>
+</div>
+
+ <br>
+
+<span>
+    <strong>La fecha del dia de hoy</strong>
+
+</span>
+<hr>
+
+
+<h1>Videos y audios incrustados de Youtube
+</h1>
+
+<hr>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C7u1vHB8R_o?si=FOw_vWTeT2vvqygs" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<hr>
+
+<iframe width="70%" height="200" scrolling="no" frameborder="no" allow="autoplay" 
+src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156171843&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+</iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break:
+ normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: 
+ Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,
+ Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/es" 
+ title="Call me eS" target="_blank" style="color: #cccccc; text-decoration: none;">
+ Call me eS</a> · <a href="https://soundcloud.com/es/map-portraits" title="Map Portraits" target="_blank" style="color: #cccccc; text-decoration: none;">Map Portraits</a></div>
+    
+    <hr>
+
+     <h1>Formularios:</h1>
+
+     <hr>
+
+     <form action="envio.php" method="post">
+        <label for="usuario">Usuario:</label>
+        <br>
+        <input type="email" id="usuario" name="usuario" placeholder="Escribi tu nombre" required/>
+        <small>Este campo es obligatorio</small>
+        <br>
+
+        <label for="usuario">E-mail:</label>
+        <br>
+        <input type="text" id="mail" name="usuario" placeholder="Escribi tu mail" required/>
+        <small>Este campo es obligatorio</small>
+        <br>
+
+        <label for="password">Contraseña:</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Escriba su Contraseña" required/>
+        <small>Este campo es obligatorio</small>
+        
+        <br>
+        <br>
+
+        <input type="radio" name="lenguajes" value="HTML">HTML
+        <input type="radio" name="lenguajes" value="CSS">CSS
+        <input type="radio" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT
+        <input type="radio" name="lenguajes" value="REACT">REACT
+        <br>
+        <input type="checkbox" name="lenguajes" value="HTML">HTML
+        <input type="checkbox" name="lenguajes" value="CSS">CSS
+        <input type="checkbox" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT
+        <input type="checkbox" name="lenguajes" value="REACT">REACT
+        <br>
+        <br>
+        <label for="Programador">Años programando:</label>
+        <input type="number" id="programando" name="programando" placeholder="Años programando" max="3" min="0">
+        <br>
+        <br>
+        <label for="archivo">Subi tu curriculum:</label>
+        <input type="file" id="archivo" name="archivo" value="file" multiple/>
+        <br>
+        <br>
+        <label for="fecha">fecha de ingreso laboral:</label>
+        <input type="date" id="fecha" name="fecha" max="2023-03-17"/>
+        <br>
+        <br>
+        <br>
+        <label for="opinion">Tu opinion nos importa:</label>
+        <textarea id="opinion" name="opinion" placeholder="Escribi tu opinion" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <label for="pais">Seleccion tu pais de origen:</label>
+        <select name="pais" id="pais">
+            
+            <optgroup label="Grupo 1">
+                <option value="Argentina">Argentina</option>
+                <option value="Francia">Francia</option>
+            </optgroup>
+            <optgroup label="Grupo 2">
+                <option value="Croasia" selected="selected">Croasia</option>
+                <option value="Marruecos">Marruecos</option>
+            </optgroup>
+
+            <br>
+            <br>
+
+            <input type="button" onclick="alert('suscribite a mi canal!')" value="Saludando">
+            <br>
+            <input type="submit" value="Enviar datos"> Submit 
+            <br>
+            
+            <input type="reset" value="Resetear el formulario"> Reset
+            
+            <br>
+            <br>
+            <a href="mailto:aliagajoseignacio@gmail.com">Enviar un correo!</a>
+
+            
+
+        </select>
+
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    
+
+    <i class="glyphicon glyphicon-home"></i>
+    
+    <div class="cuadradito"></div>
+
+    
+ <!-- <script src="index.js"></script> -->
+</body>
+<footer>
+    <p>esta es mi pagina nueva</p>
+</footer>
+</html>
